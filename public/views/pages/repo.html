@@ -1,0 +1,18 @@
+<div>
+  <h1>Work Examples</h1><br />
+  <a href="/">Home</a>
+</div>
+  <div class="col-md-10 col-md-offset-1 col-xs-offset-1">
+<table class="table table-hover">
+    <!-- <div ng-repeat="repo in rc.holdrepo" > -->
+    <tr ng-repeat="repo in rc.holdrepo">
+        <td id="p1">Repo Name: {{repo.name}}</td>
+        <td id="p2">Link to Repo: <link href="http://github.com/{{repo.url}}">{{repo.url}}</a></td>
+        <td>Date Created: {{repo.created_at}}</td>
+        <td>Last modified: {{repo.updated_at}}</td>
+    </tr>
+</table>
+            <hr>
+          </div>
+        </div>
+      </div>
